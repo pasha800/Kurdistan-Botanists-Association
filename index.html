@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#5d472e" />
-  <meta name="description" content="The official website of the Kurdistan Botanists Association: research, conservation, flora records, events, membership, and scientific collaboration." />
+  <meta name="description" content="The official website of the Kurdistan Botanists Association: research, conservation, flora records, geography, events, membership, and scientific collaboration." />
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Kurdistan Botanists Association" />
   <meta property="og:description" content="A professional platform for botanists, researchers, students, and nature conservation partners in Kurdistan." />
@@ -13,138 +13,30 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="stylesheet" href="styles.css" />
+  <style>.geo-copy{display:none}.geo-copy.active{display:block}.geo-grid{display:grid;grid-template-columns:minmax(0,1fr) 500px;gap:clamp(24px,5vw,60px);align-items:center}.geo-copy p{color:var(--muted);line-height:2}.geo-card{border:1px solid var(--line);border-radius:var(--radius);background:var(--surface);box-shadow:var(--shadow);padding:18px}.geo-card img{width:100%;height:auto;border-radius:22px}.geo-note{color:var(--muted);line-height:1.7;margin:10px 4px 0}.geo-facts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:22px}.geo-facts article{border:1px solid var(--line);border-radius:var(--radius-sm);background:var(--surface);padding:16px}.geo-facts strong{display:block;color:var(--accent);font-family:var(--font-head);margin-bottom:6px}@media(max-width:1040px){.geo-grid{grid-template-columns:1fr}}@media(max-width:680px){.geo-facts{grid-template-columns:1fr}.geo-card{padding:10px}}</style>
 </head>
 <body>
   <a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
-
-  <header class="site-header" id="top">
-    <nav class="nav-shell" aria-label="Primary navigation">
-      <a class="brand" href="#top" aria-label="Home">
-        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M34 58c-9-8-13-18-11-30C26 15 37 7 55 3c1 20-6 33-20 40-4 2-9 3-14 2 3 5 7 9 13 13Z"></path><path d="M28 55c-10-5-17-13-19-24C6 18 11 8 25 2c7 16 6 29-2 39-4 5-8 8-14 10 6 2 12 4 19 4Z"></path></svg></span>
-        <span><strong data-i18n="brandTitle">Kurdistan Botanists Association</strong><small data-i18n="brandSub">Science, flora and conservation</small></span>
-      </a>
-
-      <button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
-
-      <div class="nav-links" id="navLinks">
-        <a href="#about" data-i18n="navAbout">About</a>
-        <a href="#programs" data-i18n="navPrograms">Programs</a>
-        <a href="#flora" data-i18n="navFlora">Flora</a>
-        <a href="#events" data-i18n="navEvents">Events</a>
-        <a href="#membership" data-i18n="navMembership">Membership</a>
-        <a href="#contact" data-i18n="navContact">Contact</a>
-        <select class="language-select" id="languageSelect" aria-label="Language">
-          <option value="en">English</option>
-          <option value="ckb">کوردی</option>
-          <option value="ar">العربية</option>
-        </select>
-        <button class="theme-toggle" id="themeToggle" type="button" data-i18n="themeDark">Dark</button>
-      </div>
-    </nav>
-  </header>
+  <header class="site-header" id="top"><nav class="nav-shell" aria-label="Primary navigation"><a class="brand" href="#top" aria-label="Home"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 64 64"><path d="M34 58c-9-8-13-18-11-30C26 15 37 7 55 3c1 20-6 33-20 40-4 2-9 3-14 2 3 5 7 9 13 13Z"></path><path d="M28 55c-10-5-17-13-19-24C6 18 11 8 25 2c7 16 6 29-2 39-4 5-8 8-14 10 6 2 12 4 19 4Z"></path></svg></span><span><strong data-i18n="brandTitle">Kurdistan Botanists Association</strong><small data-i18n="brandSub">Science, flora and conservation</small></span></a><button class="menu-toggle" id="menuToggle" type="button" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button><div class="nav-links" id="navLinks"><a href="#about" data-i18n="navAbout">About</a><a href="#geography" data-geo-nav>Geography</a><a href="#programs" data-i18n="navPrograms">Programs</a><a href="#flora" data-i18n="navFlora">Flora</a><a href="#events" data-i18n="navEvents">Events</a><a href="#membership" data-i18n="navMembership">Membership</a><a href="#contact" data-i18n="navContact">Contact</a><select class="language-select" id="languageSelect" aria-label="Language"><option value="en">English</option><option value="ckb">کوردی</option><option value="ar">العربية</option></select><button class="theme-toggle" id="themeToggle" type="button" data-i18n="themeDark">Dark</button></div></nav></header>
 
   <main id="main">
-    <section class="hero section-pad">
-      <div class="hero-bg" aria-hidden="true"></div>
-      <div class="container hero-grid">
-        <div class="hero-copy reveal">
-          <p class="eyebrow" data-i18n="heroEyebrow">Research · Conservation · Education</p>
-          <h1 data-i18n="heroTitle">The official scientific home for Kurdistan’s plant life</h1>
-          <p class="lead" data-i18n="heroLead">A professional platform for documenting flora, supporting field research, organizing scientific activities, and connecting botanists across Kurdistan.</p>
-          <div class="hero-actions">
-            <a class="btn primary" href="#membership" data-i18n="heroJoin">Become a member</a>
-            <a class="btn secondary" href="#flora" data-i18n="heroExplore">Explore the flora database</a>
-          </div>
-          <div class="trust-row" aria-label="Key figures">
-            <span><b data-count="420">0</b> <em data-i18n="statPlants">flora records</em></span>
-            <span><b data-count="36">0</b> <em data-i18n="statProjects">field projects</em></span>
-            <span><b data-count="12">0</b> <em data-i18n="statPartners">scientific partners</em></span>
-          </div>
-        </div>
+    <section class="hero section-pad"><div class="hero-bg" aria-hidden="true"></div><div class="container hero-grid"><div class="hero-copy reveal"><p class="eyebrow" data-i18n="heroEyebrow">Research · Conservation · Education</p><h1 data-i18n="heroTitle">The official scientific home for Kurdistan’s plant life</h1><p class="lead" data-i18n="heroLead">A professional platform for documenting flora, supporting field research, organizing scientific activities, and connecting botanists across Kurdistan.</p><div class="hero-actions"><a class="btn primary" href="#membership" data-i18n="heroJoin">Become a member</a><a class="btn secondary" href="#flora" data-i18n="heroExplore">Explore the flora database</a></div><div class="trust-row" aria-label="Key figures"><span><b data-count="420">0</b> <em data-i18n="statPlants">flora records</em></span><span><b data-count="36">0</b> <em data-i18n="statProjects">field projects</em></span><span><b data-count="12">0</b> <em data-i18n="statPartners">scientific partners</em></span></div></div><aside class="hero-card reveal"><div class="card-orbit" aria-hidden="true"></div><p class="eyebrow" data-i18n="featured">Featured initiative</p><h2 data-i18n="atlasTitle">Flora Kurdistan Digital Atlas</h2><p data-i18n="atlasText">A digital atlas for names, images, locations, habitat notes, and conservation status of plant species.</p><div class="mini-map" aria-label="Symbolic Kurdistan map"><span style="--x:24%;--y:62%"></span><span style="--x:54%;--y:35%"></span><span style="--x:70%;--y:56%"></span><span style="--x:42%;--y:72%"></span></div><a class="text-link" href="#programs" data-i18n="viewPrograms">View programs</a></aside></div></section>
 
-        <aside class="hero-card reveal">
-          <div class="card-orbit" aria-hidden="true"></div>
-          <p class="eyebrow" data-i18n="featured">Featured initiative</p>
-          <h2 data-i18n="atlasTitle">Flora Kurdistan Digital Atlas</h2>
-          <p data-i18n="atlasText">A digital atlas for names, images, locations, habitat notes, and conservation status of plant species.</p>
-          <div class="mini-map" aria-label="Symbolic Kurdistan map"><span style="--x:24%;--y:62%"></span><span style="--x:54%;--y:35%"></span><span style="--x:70%;--y:56%"></span><span style="--x:42%;--y:72%"></span></div>
-          <a class="text-link" href="#programs" data-i18n="viewPrograms">View programs</a>
-        </aside>
-      </div>
-    </section>
+    <section class="section-pad soft" id="geography"><div class="container geo-grid"><div class="reveal"><div class="geo-copy" data-geo-copy="en"><p class="eyebrow">Geography and plant zones</p><h2>Mountains, valleys and plains create a living botanical laboratory</h2><p>The Region is shaped by Zagros mountain systems, rugged northern and northeastern highlands, fertile valleys, and southern plains. This variety of elevation, rainfall and habitat supports oak woodlands, steppe vegetation, wild herbs and useful plants.</p><div class="geo-facts"><article><strong>Mountain belts</strong><span>Qandil, Pîramagrun, Halgurd-Sakran and other highlands support cool habitats and spring flora.</span></article><article><strong>Valleys and foothills</strong><span>Rawanduz, Amedi, Hawraman and other valleys are rich corridors for wild plants.</span></article><article><strong>Plains and steppe</strong><span>Erbil, Garmian, Sharazur and Raparin plains host seasonal plant communities.</span></article></div></div><div class="geo-copy" data-geo-copy="ckb"><p class="eyebrow">جوگرافیا و زۆنە ڕووەکییەکان</p><h2>چیا، دۆڵ و دەشتەکان تاقیگەیەکی زیندووی ڕووەکن</h2><p>هەرێمی کوردستان بە چیاکانی Zagros، بەرزاییە سەختەکانی باکوور و باکوور-ڕۆژهەڵات، دۆڵە بە پیتەکان و دەشتەکانی باشوور ناسراوە. ئەم جیاوازییەی بەرزی، باران و ژینگە، دارستانی بەڕوو، گیاکانی steppe و زۆر ڕووەکی بەسوود پێ گەشە دەدات.</p><div class="geo-facts"><article><strong>زنجیرە چیاکان</strong><span>قەندیل، پیرەمەگروون، هەڵگورد-سەکران و بەرزاییەکانی تر ژینگەی سارد و گیا بەهارییەکان دەپارێزن.</span></article><article><strong>دۆڵ و بناری چیا</strong><span>ڕواندز، ئامێدی، هەورامان و دۆڵەکانی تر ڕێڕەوی دەوڵەمەندی گیا و ڕووەکی کێوین.</span></article><article><strong>دەشت و steppe</strong><span>دەشتەکانی هەولێر، گەرمیان، شارەزوور و ڕاپەڕین شوێنی گەشەی کۆمەڵە ڕووەکی موسمیین.</span></article></div></div><div class="geo-copy" data-geo-copy="ar"><p class="eyebrow">الجغرافيا والمناطق النباتية</p><h2>الجبال والوديان والسهول تصنع مختبراً نباتياً حياً</h2><p>تتشكل المنطقة من أنظمة جبال زاغروس والمرتفعات الشمالية والشمالية الشرقية الوعرة والوديان الخصبة والسهول الجنوبية. هذا التنوع في الارتفاع والأمطار والموائل يدعم غابات البلوط ونباتات السهوب والنباتات البرية المفيدة.</p><div class="geo-facts"><article><strong>الأحزمة الجبلية</strong><span>قنديل وبيرمكرون وهلكورد-سكران ومرتفعات أخرى تدعم المواطن الباردة والنباتات الربيعية.</span></article><article><strong>الوديان والسفوح</strong><span>رواندز وآميدي وهورامان ووديان أخرى تشكل ممرات غنية للنباتات البرية.</span></article><article><strong>السهول والسهوب</strong><span>سهول أربيل وكرميان وشهرزور ورابرين تستضيف مجتمعات نباتية موسمية.</span></article></div></div></div><div class="geo-card reveal"><img src="assets/ecology.svg" alt="Ecology diagram for mountain, valley and plain plant zones" /><p class="geo-note" data-geo-note>Illustrative ecology diagram for plant zones.</p></div></div></section>
 
-    <section class="section-pad" id="about">
-      <div class="container split">
-        <div class="reveal"><p class="eyebrow" data-i18n="aboutEyebrow">About the association</p><h2 data-i18n="aboutTitle">A platform for science, nature, and Kurdistan’s greener future</h2></div>
-        <div class="about-text reveal">
-          <p data-i18n="aboutText">The Kurdistan Botanists Association is a professional platform for botanists, ecologists, educators, students, and volunteers. Its mission is to build reliable knowledge, strengthen field research, and support the protection of natural habitats.</p>
-          <div class="values-grid">
-            <article><strong data-i18n="valueResearch">Research</strong><span data-i18n="valueResearchText">Field projects, scientific writing, and data quality.</span></article>
-            <article><strong data-i18n="valueConservation">Conservation</strong><span data-i18n="valueConservationText">Awareness and planning for threatened species and habitats.</span></article>
-            <article><strong data-i18n="valueEducation">Education</strong><span data-i18n="valueEducationText">Courses, workshops, and Kurdish learning resources.</span></article>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section class="section-pad" id="about"><div class="container split"><div class="reveal"><p class="eyebrow" data-i18n="aboutEyebrow">About the association</p><h2 data-i18n="aboutTitle">A platform for science, nature, and Kurdistan’s greener future</h2></div><div class="about-text reveal"><p data-i18n="aboutText">The Kurdistan Botanists Association is a professional platform for botanists, ecologists, educators, students, and volunteers. Its mission is to build reliable knowledge, strengthen field research, and support the protection of natural habitats.</p><div class="values-grid"><article><strong data-i18n="valueResearch">Research</strong><span data-i18n="valueResearchText">Field projects, scientific writing, and data quality.</span></article><article><strong data-i18n="valueConservation">Conservation</strong><span data-i18n="valueConservationText">Awareness and planning for threatened species and habitats.</span></article><article><strong data-i18n="valueEducation">Education</strong><span data-i18n="valueEducationText">Courses, workshops, and Kurdish learning resources.</span></article></div></div></div></section>
 
-    <section class="section-pad soft" id="programs">
-      <div class="container">
-        <div class="section-head reveal"><p class="eyebrow" data-i18n="programsEyebrow">Programs and services</p><h2 data-i18n="programsTitle">A complete digital system for the association</h2></div>
-        <div class="program-grid">
-          <article class="program-card reveal"><span class="icon">01</span><h3 data-i18n="program1">Flora Atlas</h3><p data-i18n="program1Text">Scientific names, Kurdish names, locations, images, and conservation status.</p></article>
-          <article class="program-card reveal"><span class="icon">02</span><h3 data-i18n="program2">Digital Herbarium</h3><p data-i18n="program2Text">Specimen archive with collection number, date, region, and reference notes.</p></article>
-          <article class="program-card reveal"><span class="icon">03</span><h3 data-i18n="program3">Environmental Reports</h3><p data-i18n="program3Text">Data-based reports and recommendations for institutions and partners.</p></article>
-          <article class="program-card reveal"><span class="icon">04</span><h3 data-i18n="program4">Courses and Workshops</h3><p data-i18n="program4Text">Plant identification, field photography, GIS, and scientific writing.</p></article>
-        </div>
-      </div>
-    </section>
+    <section class="section-pad soft" id="programs"><div class="container"><div class="section-head reveal"><p class="eyebrow" data-i18n="programsEyebrow">Programs and services</p><h2 data-i18n="programsTitle">A complete digital system for the association</h2></div><div class="program-grid"><article class="program-card reveal"><span class="icon">01</span><h3 data-i18n="program1">Flora Atlas</h3><p data-i18n="program1Text">Scientific names, Kurdish names, locations, images, and conservation status.</p></article><article class="program-card reveal"><span class="icon">02</span><h3 data-i18n="program2">Digital Herbarium</h3><p data-i18n="program2Text">Specimen archive with collection number, date, region, and reference notes.</p></article><article class="program-card reveal"><span class="icon">03</span><h3 data-i18n="program3">Environmental Reports</h3><p data-i18n="program3Text">Data-based reports and recommendations for institutions and partners.</p></article><article class="program-card reveal"><span class="icon">04</span><h3 data-i18n="program4">Courses and Workshops</h3><p data-i18n="program4Text">Plant identification, field photography, GIS, and scientific writing.</p></article></div></div></section>
 
-    <section class="section-pad" id="flora">
-      <div class="container">
-        <div class="section-head reveal"><p class="eyebrow" data-i18n="floraEyebrow">Flora database</p><h2 data-i18n="floraTitle">Search and filter plant species</h2><p data-i18n="floraText">This is sample data and can later be replaced with verified association records.</p></div>
-        <div class="flora-tools reveal">
-          <label><span data-i18n="searchLabel">Search</span><input id="plantSearch" type="search" data-i18n-placeholder="searchPlaceholder" placeholder="Name, scientific name, or region..." /></label>
-          <label><span data-i18n="categoryLabel">Category</span><select id="plantFilter"><option value="all" data-i18n="filterAll">All</option><option value="medicinal" data-i18n="filterMedicinal">Medicinal</option><option value="endemic" data-i18n="filterEndemic">Endemic</option><option value="forest" data-i18n="filterForest">Forest</option><option value="mountain" data-i18n="filterMountain">Mountain</option></select></label>
-        </div>
-        <div class="plant-grid" id="plantGrid" aria-live="polite"></div>
-      </div>
-    </section>
+    <section class="section-pad" id="flora"><div class="container"><div class="section-head reveal"><p class="eyebrow" data-i18n="floraEyebrow">Flora database</p><h2 data-i18n="floraTitle">Search and filter plant species</h2><p data-i18n="floraText">This is sample data and can later be replaced with verified association records.</p></div><div class="flora-tools reveal"><label><span data-i18n="searchLabel">Search</span><input id="plantSearch" type="search" data-i18n-placeholder="searchPlaceholder" placeholder="Name, scientific name, or region..." /></label><label><span data-i18n="categoryLabel">Category</span><select id="plantFilter"><option value="all" data-i18n="filterAll">All</option><option value="medicinal" data-i18n="filterMedicinal">Medicinal</option><option value="endemic" data-i18n="filterEndemic">Endemic</option><option value="forest" data-i18n="filterForest">Forest</option><option value="mountain" data-i18n="filterMountain">Mountain</option></select></label></div><div class="plant-grid" id="plantGrid" aria-live="polite"></div></div></section>
 
-    <section class="section-pad soft" id="events">
-      <div class="container">
-        <div class="section-head reveal"><p class="eyebrow" data-i18n="eventsEyebrow">Events</p><h2 data-i18n="eventsTitle">Scientific and field activities</h2></div>
-        <div class="timeline">
-          <article class="event-card reveal"><time data-i18n="event1Date">March 2026</time><h3 data-i18n="event1">First Kurdistan Botany Conference</h3><p data-i18n="event1Text">Talks, posters, panels, and presentation of the Flora Atlas initiative.</p></article>
-          <article class="event-card reveal"><time data-i18n="event2Date">April 2026</time><h3 data-i18n="event2">Mountain field expedition</h3><p data-i18n="event2Text">Recording photos, GPS points, and educational field samples.</p></article>
-          <article class="event-card reveal"><time data-i18n="event3Date">May 2026</time><h3 data-i18n="event3">Mobile plant identification workshop</h3><p data-i18n="event3Text">Practical training on photography, metadata, and field reporting.</p></article>
-        </div>
-      </div>
-    </section>
+    <section class="section-pad soft" id="events"><div class="container"><div class="section-head reveal"><p class="eyebrow" data-i18n="eventsEyebrow">Events</p><h2 data-i18n="eventsTitle">Scientific and field activities</h2></div><div class="timeline"><article class="event-card reveal"><time data-i18n="event1Date">March 2026</time><h3 data-i18n="event1">First Kurdistan Botany Conference</h3><p data-i18n="event1Text">Talks, posters, panels, and presentation of the Flora Atlas initiative.</p></article><article class="event-card reveal"><time data-i18n="event2Date">April 2026</time><h3 data-i18n="event2">Mountain field expedition</h3><p data-i18n="event2Text">Recording photos, GPS points, and educational field samples.</p></article><article class="event-card reveal"><time data-i18n="event3Date">May 2026</time><h3 data-i18n="event3">Mobile plant identification workshop</h3><p data-i18n="event3Text">Practical training on photography, metadata, and field reporting.</p></article></div></div></section>
 
-    <section class="section-pad" id="membership">
-      <div class="container membership-grid">
-        <div class="reveal"><p class="eyebrow" data-i18n="memberEyebrow">Membership</p><h2 data-i18n="memberTitle">Join Kurdistan’s professional network of botanists</h2><p class="lead small" data-i18n="memberText">The form prepares an email message. A backend or Google Sheet integration can be added later.</p><ul class="check-list"><li data-i18n="member1">Scientific member</li><li data-i18n="member2">Student member</li><li data-i18n="member3">Volunteer and nature friend</li></ul></div>
-        <form class="member-form reveal" id="memberForm">
-          <label><span data-i18n="formName">Full name</span><input name="name" required data-i18n-placeholder="formNamePh" placeholder="Your full name" /></label>
-          <label><span data-i18n="formContact">Email / phone</span><input name="contact" required data-i18n-placeholder="formContactPh" placeholder="email@example.com or phone number" /></label>
-          <label><span data-i18n="formType">Membership type</span><select name="type" required><option value="" data-i18n="formChoose">Choose</option><option data-i18n="formType1">Scientific member</option><option data-i18n="formType2">Student</option><option data-i18n="formType3">Volunteer</option><option data-i18n="formType4">Institution / partner</option></select></label>
-          <label><span data-i18n="formField">Field / expertise</span><input name="field" data-i18n-placeholder="formFieldPh" placeholder="Botany, ecology, GIS, photography..." /></label>
-          <label><span data-i18n="formMessage">Message</span><textarea name="message" rows="4" data-i18n-placeholder="formMessagePh" placeholder="Write a short note about yourself..."></textarea></label>
-          <button class="btn primary" type="submit" data-i18n="formSubmit">Prepare application</button>
-          <p class="form-status" id="formStatus" role="status"></p>
-        </form>
-      </div>
-    </section>
+    <section class="section-pad" id="membership"><div class="container membership-grid"><div class="reveal"><p class="eyebrow" data-i18n="memberEyebrow">Membership</p><h2 data-i18n="memberTitle">Join Kurdistan’s professional network of botanists</h2><p class="lead small" data-i18n="memberText">The form prepares an email message. A backend or Google Sheet integration can be added later.</p><ul class="check-list"><li data-i18n="member1">Scientific member</li><li data-i18n="member2">Student member</li><li data-i18n="member3">Volunteer and nature friend</li></ul></div><form class="member-form reveal" id="memberForm"><label><span data-i18n="formName">Full name</span><input name="name" required data-i18n-placeholder="formNamePh" placeholder="Your full name" /></label><label><span data-i18n="formContact">Email / phone</span><input name="contact" required data-i18n-placeholder="formContactPh" placeholder="email@example.com or phone number" /></label><label><span data-i18n="formType">Membership type</span><select name="type" required><option value="" data-i18n="formChoose">Choose</option><option data-i18n="formType1">Scientific member</option><option data-i18n="formType2">Student</option><option data-i18n="formType3">Volunteer</option><option data-i18n="formType4">Institution / partner</option></select></label><label><span data-i18n="formField">Field / expertise</span><input name="field" data-i18n-placeholder="formFieldPh" placeholder="Botany, ecology, GIS, photography..." /></label><label><span data-i18n="formMessage">Message</span><textarea name="message" rows="4" data-i18n-placeholder="formMessagePh" placeholder="Write a short note about yourself..."></textarea></label><button class="btn primary" type="submit" data-i18n="formSubmit">Prepare application</button><p class="form-status" id="formStatus" role="status"></p></form></div></section>
 
-    <section class="section-pad contact-section" id="contact">
-      <div class="container contact-grid">
-        <div class="reveal"><p class="eyebrow" data-i18n="contactEyebrow">Contact</p><h2 data-i18n="contactTitle">For partnerships, plant reports, or scientific activities, contact us</h2></div>
-        <div class="contact-cards reveal"><a href="mailto:info@kurdistanbotanists.org">info@kurdistanbotanists.org</a><a href="tel:+9647500000000">+964 750 000 0000</a><span data-i18n="contactRegion">Kurdistan · Erbil / Sulaymaniyah / Duhok</span></div>
-      </div>
-    </section>
+    <section class="section-pad contact-section" id="contact"><div class="container contact-grid"><div class="reveal"><p class="eyebrow" data-i18n="contactEyebrow">Contact</p><h2 data-i18n="contactTitle">For partnerships, plant reports, or scientific activities, contact us</h2></div><div class="contact-cards reveal"><a href="mailto:info@kurdistanbotanists.org">info@kurdistanbotanists.org</a><a href="tel:+9647500000000">+964 750 000 0000</a><span data-i18n="contactRegion">Kurdistan · Erbil / Sulaymaniyah / Duhok</span></div></div></section>
   </main>
-
   <footer class="site-footer"><div class="container footer-grid"><p><span data-i18n="footerPrefix">©</span> <span id="year"></span> <span data-i18n="footerText">Kurdistan Botanists Association. All rights reserved.</span></p><a href="#top" data-i18n="backTop">Back to top</a></div></footer>
-  <script src="app.js"></script>
+  <script src="app.js"></script><script>const geoLabels={en:{nav:'Geography',note:'Illustrative ecology diagram for plant zones.'},ckb:{nav:'جوگرافیا',note:'وێنەیەکی هێمایی بۆ زۆنە ڕووەکییەکان.'},ar:{nav:'الجغرافيا',note:'رسم توضيحي للمناطق النباتية.'}};function localizeGeo(){const lang=localStorage.getItem('kba-language')||'en';const data=geoLabels[lang]||geoLabels.en;document.querySelector('[data-geo-nav]').textContent=data.nav;document.querySelectorAll('[data-geo-copy]').forEach(n=>n.classList.toggle('active',n.dataset.geoCopy===lang));document.querySelector('[data-geo-note]').textContent=data.note;}document.getElementById('languageSelect')?.addEventListener('change',()=>setTimeout(localizeGeo,0));localizeGeo();</script>
 </body>
 </html>
