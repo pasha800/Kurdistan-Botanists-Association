@@ -1,12 +1,15 @@
-# Kurdistan Botanists Association
+# ماڵە زانستییە فەرمییەکەی رووەکناسانی کوردستان
 
-Official multilingual website for the Kurdistan Botanists Association. The homepage defaults to English and includes a language switcher for English, Kurdish (Sorani), and Arabic. The design uses a formal low-green palette with ivory, earth, bronze, and gold tones, while keeping only a small botanical accent.
+Official multilingual website for Kurdistan botanists. The homepage defaults to English and includes Kurdish (Sorani) and Arabic language options. The public-facing Kurdish name is:
+
+**ماڵە زانستییە فەرمییەکەی رووەکناسانی کوردستان**
 
 ## Features
 
 - English default homepage
-- Kurdish and Arabic full interface translations
-- Language selector that changes navigation, sections, forms, events, and plant records
+- Kurdish and Arabic interface translations
+- Official scientific-home branding
+- Geography and ecology diagram for Kurdistan plant zones
 - Formal Kurdish/Arabic typography using Noto Kufi Arabic and Noto Sans Arabic
 - Responsive premium layout for desktop and mobile
 - Low-green official color palette
@@ -22,6 +25,7 @@ index.html
 styles.css
 app.js
 manifest.json
+assets/ecology.svg
 README.md
 ```
 
@@ -38,7 +42,7 @@ For GitHub Pages:
 
 ## Before launch
 
-- Replace the sample email and phone number with the official contact details.
+- Replace the sample email and phone number with official contact details.
 - Replace sample plant records in `app.js` with verified records.
 - Update event dates and association statistics.
 - Add official logo assets if available.
