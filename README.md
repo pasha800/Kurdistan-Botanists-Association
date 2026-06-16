@@ -1,19 +1,21 @@
-# کۆمەڵەی ڕووەکناسانی کوردستان
+# Kurdistan Botanists Association
 
-وێبسایتێکی نوێ، پرۆفیشنال، جوان و پێشکەوتوو بۆ کۆمەڵەی ڕووەکناسانی کوردستان. پرۆژەکە static ـە و بە HTML + CSS + JavaScript دروست کراوە، بۆیە دەتوانرێت بە ئاسانی لە GitHub Pages، Netlify، Vercel یان هەر هاستێکی static deploy بکرێت.
+Official multilingual website for the Kurdistan Botanists Association. The homepage defaults to English and includes a language switcher for English, Kurdish (Sorani), and Arabic. The design uses a formal low-green palette with ivory, earth, bronze, and gold tones, while keeping only a small botanical accent.
 
-## تایبەتمەندییەکان
+## Features
 
-- دیزاینی RTL/Kurdish بە شێوەی premium و responsive
-- Hero section ـی پیشەیی بۆ ناساندنی کۆمەڵە
-- بەشی دەربارە، پرۆژەکان، بنکەی ڕووەک، ڕووداوەکان، ئەندامبوون و پەیوەندی
-- Plant database ـی نموونەیی بە search و filter
-- Dark / Light theme
-- Membership form بە email handoff
-- Animation و counter
-- PWA manifest
+- English default homepage
+- Kurdish and Arabic full interface translations
+- Language selector that changes navigation, sections, forms, events, and plant records
+- Formal Kurdish/Arabic typography using Noto Kufi Arabic and Noto Sans Arabic
+- Responsive premium layout for desktop and mobile
+- Low-green official color palette
+- Flora database with search and category filters
+- Membership form with email handoff
+- Dark / light mode
+- PWA manifest for install-ready static hosting
 
-## فایلەکان
+## Main files
 
 ```text
 index.html
@@ -23,16 +25,21 @@ manifest.json
 README.md
 ```
 
-## چۆن بەکاربهێنرێت؟
+## Deploy
 
-1. فایلەکان لە repo ـی GitHub دابنێ.
-2. GitHub Pages چالاک بکە.
-3. ناوەڕۆکی فۆڕم، پەیوەندی و ژمارەکان بگۆڕە بۆ زانیاریی ڕاستەقینە.
-4. داتای `plants` لە `app.js` بە داتای ڕاستەقینەی کۆمەڵە پڕ بکەرەوە.
+This is a static website and can be deployed with GitHub Pages, Netlify, Vercel, or any static host.
 
-## پێش Deploy
+For GitHub Pages:
 
-- ئیمەیڵ و ژمارەی پەیوەندی بگۆڕە.
-- ژمارەی ئاماری hero بە داتای ڕاستەقینە نوێ بکەرەوە.
-- Plant database پڕ بکەرەوە.
-- لە مۆبایل و دێسکتۆپ تاقی بکەوە.
+1. Open repository Settings.
+2. Go to Pages.
+3. Choose the `main` branch and root folder.
+4. Save and wait for the Pages URL.
+
+## Before launch
+
+- Replace the sample email and phone number with the official contact details.
+- Replace sample plant records in `app.js` with verified records.
+- Update event dates and association statistics.
+- Add official logo assets if available.
+- Test the language switcher on desktop and mobile.
