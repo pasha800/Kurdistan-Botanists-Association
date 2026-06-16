@@ -1,0 +1,11 @@
+{
+  "name": "کۆمەڵەی ڕووەکناسانی کوردستان",
+  "short_name": "KBA",
+  "description": "وێبسایتی سەرەکی کۆمەڵەی ڕووەکناسانی کوردستان",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f3f7ee",
+  "theme_color": "#0f2f24",
+  "dir": "rtl",
+  "lang": "ckb"
+}
