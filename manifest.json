@@ -1,7 +1,7 @@
 {
-  "name": "Kurdistan Botanists Association",
-  "short_name": "KBA",
-  "description": "Official multilingual website for the Kurdistan Botanists Association.",
+  "name": "The Official Scientific Home of Kurdistan Botanists",
+  "short_name": "Kurdistan Botanists",
+  "description": "Official multilingual scientific website for Kurdistan botanists, flora records, ecology, events and research collaboration.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
