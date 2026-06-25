@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+  <title id="title">لۆگۆى کۆمەڵەى ڕووەکناسانى کوردستان</title>
+  <desc id="desc">Vector recreation of the official KHA mark based on the provided logo.</desc>
+  <rect width="900" height="900" fill="#fff"/>
+  <circle cx="450" cy="450" r="420" fill="#fff" stroke="#2c2c2c" stroke-width="28"/>
+  <text x="450" y="105" text-anchor="middle" font-size="48" font-weight="700" fill="#2b7dbc" font-family="Noto Kufi Arabic, Tahoma, Arial">کۆمەڵەی ڕووەکناسانی کوردستان</text>
+  <g transform="translate(270 170)">
+    <path d="M30 80 Q180 10 330 80 L330 118 L30 118 Z" fill="#ef1f2d" opacity=".96"/>
+    <rect x="30" y="118" width="300" height="72" fill="#fff"/>
+    <path d="M30 190 L330 190 L330 245 Q180 305 30 245 Z" fill="#1e8d47"/>
+    <g transform="translate(180 154)">
+      <circle r="32" fill="#ffc41e"/>
+      <g stroke="#ffc41e" stroke-width="9" stroke-linecap="round">
+        <line x1="0" y1="-72" x2="0" y2="-45"/><line x1="0" y1="72" x2="0" y2="45"/>
+        <line x1="72" y1="0" x2="45" y2="0"/><line x1="-72" y1="0" x2="-45" y2="0"/>
+        <line x1="51" y1="-51" x2="32" y2="-32"/><line x1="-51" y1="51" x2="-32" y2="32"/>
+        <line x1="51" y1="51" x2="32" y2="32"/><line x1="-51" y1="-51" x2="-32" y2="-32"/>
+      </g>
+    </g>
+  </g>
+  <g transform="translate(235 315)">
+    <path d="M215 120 C140 55 55 60 5 115 C70 210 150 215 230 150 Z" fill="#9de75d" stroke="#4c9f2f" stroke-width="7"/>
+    <path d="M245 150 C325 60 405 55 455 115 C400 215 315 215 230 150 Z" fill="#9de75d" stroke="#4c9f2f" stroke-width="7"/>
+    <path d="M40 125 C95 120 145 130 210 150" fill="none" stroke="#fff" stroke-width="5" opacity=".8"/>
+    <path d="M420 125 C365 120 315 130 250 150" fill="none" stroke="#fff" stroke-width="5" opacity=".8"/>
+    <circle cx="398" cy="124" r="16" fill="#fff" opacity=".85"/><circle cx="110" cy="108" r="10" fill="#fff" opacity=".85"/>
+  </g>
+  <g transform="translate(450 455)" fill="none" stroke-linecap="round">
+    <line x1="0" y1="0" x2="0" y2="245" stroke="#55b83f" stroke-width="18"/>
+    <path d="M-85 35 C-185 25 -185 115 -5 105 C175 95 175 185 0 175 C-150 167 -125 245 0 235" stroke="#3c941f" stroke-width="18"/>
+    <path d="M85 35 C185 25 185 115 5 105 C-175 95 -175 185 0 175 C150 167 125 245 0 235" stroke="#75d84a" stroke-width="12"/>
+  </g>
+  <text x="450" y="700" text-anchor="middle" font-size="44" font-weight="700" fill="#84521c" font-family="Noto Kufi Arabic, Tahoma, Arial">جمعية العشابين الكوردستانية</text>
+  <text x="450" y="790" text-anchor="middle" font-size="46" font-weight="700" fill="#183252" font-family="Arial, sans-serif">Kurdistan Herbalists Association</text>
+  <text x="178" y="600" text-anchor="middle" font-size="44" font-weight="700" fill="#2b7dbc" font-family="Arial, sans-serif">2014</text>
+  <text x="722" y="600" text-anchor="middle" font-size="44" font-weight="700" fill="#2b7dbc" font-family="Arial, sans-serif">2004</text>
+</svg>
