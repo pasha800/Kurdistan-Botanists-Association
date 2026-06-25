@@ -1,13 +1,13 @@
 {
-  "name": "کۆمەڵەى ڕووەکناسانى کوردستان",
+  "name": "Kurdistan Herbalists Association",
   "short_name": "KHA",
-  "description": "پەیڕەوى ناوخۆیی، لۆگۆ و بەڵگەی ڕەسمیی کۆمەڵەى ڕووەکناسانى کوردستان.",
+  "description": "Official multilingual website for Kurdistan Herbalists Association: bylaws, program, activities, research, knowledge and official documents.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "background_color": "#fffdf6",
   "theme_color": "#315b31",
-  "dir": "rtl",
-  "lang": "ckb",
+  "dir": "ltr",
+  "lang": "en",
   "categories": ["reference", "education"]
 }
