@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1260" role="img" aria-labelledby="title desc">
+  <title id="title">ڕێگەپێدان و نووسراوی فەرمی</title>
+  <desc id="desc">Clean display card for the provided official permission document.</desc>
+  <rect width="900" height="1260" fill="#f7f4ea"/>
+  <rect x="64" y="56" width="772" height="1148" rx="16" fill="#fff" stroke="#222" stroke-width="5"/>
+  <path d="M92 92 H808 M92 205 H808" stroke="#222" stroke-width="3"/>
+  <text x="780" y="124" text-anchor="end" font-size="30" font-weight="700" fill="#111" font-family="Noto Kufi Arabic, Tahoma, Arial">سەرۆکایەتی ئەنجومەنی وەزیران</text>
+  <text x="780" y="164" text-anchor="end" font-size="29" fill="#111" font-family="Noto Kufi Arabic, Tahoma, Arial">وەزارەتی ناوخۆ</text>
+  <text x="780" y="204" text-anchor="end" font-size="27" fill="#111" font-family="Noto Kufi Arabic, Tahoma, Arial">بەڕێوەبەرایەتی گشتی وەزارە / فەرمانگەی یاسایی</text>
+  <text x="120" y="126" text-anchor="start" font-size="28" fill="#111" font-family="Noto Kufi Arabic, Tahoma, Arial">ژمارە: ١٨٨٠</text>
+  <text x="120" y="166" text-anchor="start" font-size="28" fill="#111" font-family="Noto Kufi Arabic, Tahoma, Arial">بەروار: ٢٠٠٧/١٠/١</text>
+  <circle cx="450" cy="155" r="54" fill="none" stroke="#666" stroke-width="4" stroke-dasharray="8 12" opacity=".55"/>
+  <text x="450" y="290" text-anchor="middle" font-size="42" font-weight="800" fill="#222" font-family="Noto Kufi Arabic, Tahoma, Arial">فەرمانی وەزاری</text>
+  <line x1="320" y1="310" x2="580" y2="310" stroke="#87612b" stroke-width="4"/>
+  <text x="450" y="385" text-anchor="middle" font-size="34" fill="#222" font-family="Noto Kufi Arabic, Tahoma, Arial">بەڵگەی ڕەسمیی ڕێگەپێدان</text>
+  <text x="450" y="438" text-anchor="middle" font-size="32" fill="#222" font-family="Noto Kufi Arabic, Tahoma, Arial">بۆ کۆمەڵەى ڕووەکناسانى کوردستان</text>
+  <g font-family="Noto Kufi Arabic, Tahoma, Arial" font-size="25" fill="#333">
+    <text x="780" y="540" text-anchor="end">ئەم بەڵگەیە وەک بەشی ڕێگەپێدان و پشتڕاستکردنەوەی فەرمی</text>
+    <text x="780" y="585" text-anchor="end">لە ناو وێبسایتەکە نیشان دەدرێت.</text>
+    <text x="780" y="650" text-anchor="end">سەرچاوە: سکانی نووسراوی فەرمیی بارکراو بۆ پرۆژە.</text>
+  </g>
+  <rect x="120" y="725" width="660" height="260" rx="14" fill="#faf7ef" stroke="#d6c9ad"/>
+  <text x="450" y="790" text-anchor="middle" font-size="30" font-weight="700" fill="#4f3a1f" font-family="Noto Kufi Arabic, Tahoma, Arial">تێبینی بۆ وێبسایت</text>
+  <text x="450" y="850" text-anchor="middle" font-size="25" fill="#4f3a1f" font-family="Noto Kufi Arabic, Tahoma, Arial">ئەم کارتە شوێنگرەوەی نمایشی بەڵگەکەیە.</text>
+  <text x="450" y="895" text-anchor="middle" font-size="25" fill="#4f3a1f" font-family="Noto Kufi Arabic, Tahoma, Arial">ئەگەر پێویست بێت، سکانی ڕەسەن دەتوانرێت</text>
+  <text x="450" y="940" text-anchor="middle" font-size="25" fill="#4f3a1f" font-family="Noto Kufi Arabic, Tahoma, Arial">لە داهاتوودا وەک فایلێکی وێنەیی زیاد بکرێت.</text>
+  <path d="M250 1080 C340 1035 550 1035 650 1080" fill="none" stroke="#222" stroke-width="5"/>
+  <text x="450" y="1130" text-anchor="middle" font-size="27" fill="#222" font-family="Noto Kufi Arabic, Tahoma, Arial">مۆر و واژووی فەرمی</text>
+</svg>
