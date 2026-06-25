@@ -1,19 +1,8 @@
-# Official image assets
+# Official KHA assets
 
-This folder is prepared for the official files supplied by the association.
+Upload these two files to the repository in the same paths:
 
-The website is configured to display the original images directly from these paths:
+- assets/official/kha-logo.svg
+- assets/official/kha-permission.svg
 
-```text
-assets/official/kha-logo-original.jpeg
-assets/official/kha-permission-original.jpeg
-```
-
-Current fallback display assets remain available:
-
-```text
-assets/official/kha-logo.svg
-assets/official/kha-permission.svg
-```
-
-When the exact JPEG scans are uploaded to the two `*-original.jpeg` paths, the website will show them directly without using recreated artwork.
+They are intended to replace the old files with the exact uploaded official files.
