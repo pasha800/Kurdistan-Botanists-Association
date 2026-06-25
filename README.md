@@ -11,11 +11,15 @@ The public-facing Kurdish name is:
 
 ## Implemented website content
 
-- The homepage now uses the official KHA identity only.
-- The full bylaws text from `shetaa.docx` is stored in `docs/shetaa-full-text.md` and rendered inside `index.html`.
-- The logo is displayed from `assets/official/kha-logo.svg`.
-- The permission / official document section is displayed from `assets/official/kha-permission.svg`.
-- Previous sample flora, geography, event, and membership placeholder content was removed from the homepage.
+- Formal homepage for the association identity.
+- Dedicated sections for: identity, bylaws/program, activities, research, knowledge, official documents, and the full bylaws text.
+- Full bylaws text from `shetaa.docx` stored in `docs/shetaa-full-text.md` and rendered inside `index.html`.
+- Website paths prepared for the original uploaded images:
+  - `assets/official/kha-logo-original.jpeg`
+  - `assets/official/kha-permission-original.jpeg`
+- Fallback display assets remain available until the exact original JPEG files are uploaded:
+  - `assets/official/kha-logo.svg`
+  - `assets/official/kha-permission.svg`
 
 ## Official foundation
 
@@ -29,12 +33,14 @@ See:
 
 - [`docs/shetaa-full-text.md`](docs/shetaa-full-text.md)
 - [`docs/project-foundation.md`](docs/project-foundation.md)
+- [`assets/official/README.md`](assets/official/README.md)
 
 ## Main files
 
 ```text
 index.html
 official.css
+assets/official/README.md
 assets/official/kha-logo.svg
 assets/official/kha-permission.svg
 docs/shetaa-full-text.md
@@ -54,6 +60,12 @@ For GitHub Pages:
 3. Choose the `main` branch and root folder.
 4. Save and wait for the Pages URL.
 
-## Notes
+## Future content areas
 
-The visible website is now based on the official KHA bylaws and identity. The current logo and permission displays are SVG website assets prepared from the supplied references. If exact original scans are required as downloadable binary image files, add them later under `assets/official/`.
+The formal layout is prepared so the association can later add:
+
+- Activities and official reports.
+- Research summaries and field work.
+- Herbal and plant knowledge pages.
+- Membership, decisions, letters, and official registers.
+- Downloadable official documents and publications.
