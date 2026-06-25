@@ -1,32 +1,39 @@
 <!doctype html>
-<html lang="ckb" dir="rtl">
+<html lang="en" dir="ltr">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#14351f" />
-  <meta name="description" content="وێبسایتی فەرمی کۆمەڵەى ڕووەکناسانى کوردستان؛ پەیڕەو، پرۆگرام، چالاکی، توێژینەوە و زانیاری ڕەسمی." />
-  <meta property="og:title" content="کۆمەڵەى ڕووەکناسانى کوردستان" />
-  <meta property="og:description" content="پلاتفۆڕمی فەرمی بۆ پەیڕەو، پرۆگرام، چالاکی، توێژینەوە و زانیارییەکانی KHA." />
-  <title>کۆمەڵەى ڕووەکناسانى کوردستان | KHA</title>
+  <meta name="description" content="Official website of Kurdistan Herbalists Association; bylaws, program, activities, research, knowledge and official documents." />
+  <meta property="og:title" content="Kurdistan Herbalists Association" />
+  <meta property="og:description" content="Official multilingual platform for KHA bylaws, program, activities, research, knowledge and official documents." />
+  <title>Kurdistan Herbalists Association | KHA</title>
   <link rel="manifest" href="manifest.json" />
-  <link rel="stylesheet" href="official.css?v=20260625-2" />
+  <link rel="stylesheet" href="official.css?v=20260625-4" />
 </head>
 <body>
-  <a class="skip-link" href="#document-text">بڕۆ بۆ پەیڕەو</a>
+  <a class="skip-link" href="#document-text" data-i18n="skip">Skip to bylaws</a>
   <header class="site-header" id="top">
     <nav class="nav-shell" aria-label="Primary navigation">
-      <a class="brand" href="#top" aria-label="کۆمەڵەى ڕووەکناسانى کوردستان">
-        <img class="brand-logo official-source-image" src="assets/official/kha-logo-original.jpeg" data-fallback="assets/official/kha-logo.svg" alt="لۆگۆى کۆمەڵەى ڕووەکناسانى کوردستان" />
-        <span><strong>کۆمەڵەى ڕووەکناسانى کوردستان</strong><small>Kurdistan Herbalists Association (KHA)</small></span>
+      <a class="brand" href="#top" aria-label="Kurdistan Herbalists Association">
+        <img class="brand-logo" src="assets/official/kha-logo.svg" alt="KHA logo" />
+        <span><strong data-i18n="brandTitle">Kurdistan Herbalists Association</strong><small data-i18n="brandSub">Official website</small></span>
       </a>
-      <div class="nav-links">
-        <a href="#identity">ناسنامە</a>
-        <a href="#program">پەیڕەو و پرۆگرام</a>
-        <a href="#activities">چالاکی</a>
-        <a href="#research">توێژینەوە</a>
-        <a href="#knowledge">زانیاری</a>
-        <a href="#official-docs">بەڵگەکان</a>
-        <a href="#document-text">پەیڕەو</a>
+      <div class="nav-actions">
+        <div class="language-switcher" aria-label="Language selector">
+          <button type="button" data-lang="en" class="active">English</button>
+          <button type="button" data-lang="ar">العربية</button>
+          <button type="button" data-lang="ckb">کوردی</button>
+        </div>
+        <div class="nav-links">
+          <a href="#identity" data-i18n="navIdentity">Identity</a>
+          <a href="#program" data-i18n="navProgram">Bylaws & Program</a>
+          <a href="#activities" data-i18n="navActivities">Activities</a>
+          <a href="#research" data-i18n="navResearch">Research</a>
+          <a href="#knowledge" data-i18n="navKnowledge">Knowledge</a>
+          <a href="#official-docs" data-i18n="navDocs">Documents</a>
+          <a href="#document-text" data-i18n="navBylaws">Bylaws</a>
+        </div>
       </div>
     </nav>
   </header>
@@ -35,92 +42,54 @@
     <section class="hero official-hero" id="identity">
       <div class="container hero-grid">
         <div class="hero-copy">
-          <p class="eyebrow">وێبسایتی فەرمی</p>
-          <h1>کۆمەڵەى ڕووەکناسانى کوردستان</h1>
-          <p class="lead">جميعة العشابين الكوردستانية</p>
-          <p class="lead latin">Kurdistan Herbalists Association “KHA”</p>
-          <p class="stamp">پەسەندکراوى کۆنگرەى یەکەمى کۆمەڵەى ڕووەکناسانى کوردستان کە لە بەروارى (١٥/٣/٢٠١٤)ز ئەنجامدرا لە شارى سلێمانى.</p>
-          <div class="official-badges"><span>پەیڕەو</span><span>پرۆگرام</span><span>چالاکی</span><span>توێژینەوە</span><span>زانیاری</span></div>
-          <div class="hero-actions"><a class="btn primary" href="#document-text">بینینی پەیڕەوى تەواو</a><a class="btn secondary" href="#program">بینینی پرۆگرام</a></div>
+          <p class="eyebrow" data-i18n="heroEyebrow">Official Website</p>
+          <h1 data-i18n="heroTitle">Kurdistan Herbalists Association</h1>
+          <p class="lead" data-i18n="heroArabic">الجمعية العشابية الكوردستانية</p>
+          <p class="lead latin" data-i18n="heroKurdish">کۆمەڵەى ڕووەکناسانى کوردستان</p>
+          <p class="stamp" data-i18n="heroStamp">Approved by the first congress of the association, held on 15 March 2014 in Sulaymaniyah.</p>
+          <div class="official-badges" id="badges"></div>
+          <div class="hero-actions"><a class="btn primary" href="#document-text" data-i18n="btnBylaws">Read full bylaws</a><a class="btn secondary" href="#program" data-i18n="btnProgram">View program</a></div>
         </div>
-        <figure class="logo-card main-logo"><img class="official-source-image" src="assets/official/kha-logo-original.jpeg" data-fallback="assets/official/kha-logo.svg" alt="لۆگۆى کۆمەڵەى ڕووەکناسانى کوردستان" /><figcaption>لۆگۆى ڕەسمی کۆمەڵە</figcaption></figure>
+        <figure class="logo-card main-logo"><img src="assets/official/kha-logo.svg" alt="KHA logo" /><figcaption data-i18n="logoCaption">Official association logo</figcaption></figure>
       </div>
     </section>
 
     <section class="section-pad intro-section">
-      <div class="container intro-grid">
-        <article class="intro-card"><p class="eyebrow">ناسنامە</p><h2>دامەزراوەیەکی پیشەیی و ڕۆشنبیریی سەربەخۆ</h2><p>ئەم وێبسایتە بۆ ئەوەیە ناسنامەی ڕەسمی، پەیڕەو، پرۆگرام، چالاکی، توێژینەوە و زانیارییەکانی کۆمەڵە بە شێوەیەکی فەرمی و ڕێکخراو بخاتە ڕوو.</p></article>
-        <article class="intro-card"><p class="eyebrow">دروشم</p><h2>گەڕانەوە بۆ سروشت</h2><p>سروشت گەورەترین دەرمانخانەیە. گەڕانەوە بۆ سروشت ئاسوودەیی دەروون و جەستەیە.</p></article>
-        <article class="intro-card"><p class="eyebrow">مەڵبەند</p><h2>باشووری کوردستان</h2><p>مەڵبەندی گشتیی کۆمەڵە لە شاری هەولێرە و دەتوانێت لە پارێزگا، قەزا و ناحیەکاندا لق و نوێنەرایەتی هەبێت.</p></article>
-      </div>
+      <div class="container intro-grid" id="introGrid"></div>
     </section>
 
     <section class="section-pad soft-section" id="program">
       <div class="container">
-        <div class="section-head"><p class="eyebrow">پەیڕەو و پرۆگرام</p><h2>بنەما و ئاراستەی کاری کۆمەڵە</h2><p>ئەم بەشە بە پشتبەستن بە پەیڕەوی ناوخۆیی `shetaa.docx` دروستکراوە و دەتوانرێت دواتر وەک بناغەی هەموو بەشەکانی وێبسایت بەکاربهێنرێت.</p></div>
-        <div class="program-grid formal-grid">
-          <article class="program-card"><span class="card-no">01</span><h3>هۆشیاری تەندروستی</h3><p>بڵاوکردنەوەی هۆشیاری خۆپارێزی، ڕۆشنبیریی تەندروستی و ناساندنی شێوازەکانی چارەسەری سروشتی بە شێوەی فەرمی و زانستی.</p></article>
-          <article class="program-card"><span class="card-no">02</span><h3>ڕێکخستنی پیشەوەران</h3><p>ڕێکخستن و یەکخستنی پیشەکان و کەسانی پەیوەندیدار بە پزیشکی تەواوکاری و گیادەرمانی لە ژێر کۆمەڵەیەکی پیشەیی.</p></article>
-          <article class="program-card"><span class="card-no">03</span><h3>توێژینەوە و بەڵگەی زانستی</h3><p>هەوڵدان بۆ سەلماندنی بەڵگە زانستییەکان لەسەر شێوازەکانی چارەسەری سروشتی بە هەماهەنگی لەگەڵ ناوەندە زانستییەکان.</p></article>
-          <article class="program-card"><span class="card-no">04</span><h3>فەرهەنگ و ئینسایکڵۆپیدیا</h3><p>دامەزراندنی ئینسایکڵۆپیدیای گیادەرمانی و فەرهەنگی گیادەرمانی کوردی بۆ ڕووەکە پزیشکییەکانی کوردستان.</p></article>
-          <article class="program-card"><span class="card-no">05</span><h3>خول و سیمینار</h3><p>کردنەوەی خول، کۆڕ، سیمینار و چالاکییە زانستییەکان بۆ ئەندامان، لایەنگران و خەڵک بە گشتی.</p></article>
-          <article class="program-card"><span class="card-no">06</span><h3>پاراستنی ڕووەکەکان</h3><p>هەوڵدان بۆ پاراستن، زۆرکردن و گرنگیدان بە ڕووەکە پزیشکییە خۆرسک و دەست‌نێژەکان.</p></article>
-        </div>
+        <div class="section-head"><p class="eyebrow" data-i18n="programEyebrow">Bylaws and Program</p><h2 data-i18n="programTitle">Principles and direction of the association</h2><p data-i18n="programText">This section is based on the official bylaws and forms the foundation for the website sections.</p></div>
+        <div class="program-grid formal-grid" id="programGrid"></div>
       </div>
     </section>
 
-    <section class="section-pad" id="activities">
-      <div class="container split-section">
-        <div><p class="eyebrow">چالاکی</p><h2>شوێنی فەرمی بۆ ڕاپۆرت و هەواڵی کۆمەڵە</h2><p class="lead small">دواتر دەتوانرێت هەر چالاکییەک بە وێنە، بەروار، شوێن، بەشداربووان و ڕاپۆرتی کورت لێرە دابنرێت.</p></div>
-        <div class="list-panel"><h3>جۆری چالاکییەکان</h3><ul><li>کۆڕ و سیمیناری زانستی</li><li>خولی ڕاهێنان و هۆشیاری</li><li>پێشانگا و بڵاوکراوە</li><li>سەردان و هاوبەشی لەگەڵ دامەزراوەکان</li><li>چالاکیی پاراستنی سروشت و ڕووەکە پزیشکییەکان</li></ul></div>
-      </div>
-    </section>
+    <section class="section-pad" id="activities"><div class="container split-section"><div><p class="eyebrow" data-i18n="activitiesEyebrow">Activities</p><h2 data-i18n="activitiesTitle">Official place for reports and association news</h2><p class="lead small" data-i18n="activitiesText">Each activity can later include photos, date, location, participants and a short report.</p></div><div class="list-panel"><h3 data-i18n="activitiesListTitle">Activity types</h3><ul id="activitiesList"></ul></div></div></section>
 
-    <section class="section-pad soft-section" id="research">
-      <div class="container split-section reverse">
-        <div><p class="eyebrow">توێژینەوە</p><h2>بەشی تایبەت بۆ کار و توێژینەوەی زانستی</h2><p class="lead small">ئەم بەشە بۆ بڵاوکردنەوەی پوختەی توێژینەوە، کارە مەیدانییەکان، هاوبەشیی زانستی و پڕۆژەکانی پەیوەندیدار بە ڕووەکە پزیشکییەکان ئامادەکراوە.</p></div>
-        <div class="list-panel"><h3>پێکهاتەی توێژینەوە</h3><ul><li>ناوی توێژینەوە و پوختە</li><li>ناوی توێژەر و هاوبەشەکان</li><li>بەروار و شوێنی کار</li><li>وێنە، فایل، سەرچاوە و پەیوەندی</li><li>تێبینی تەندروستی و زانستی</li></ul></div>
-      </div>
-    </section>
+    <section class="section-pad soft-section" id="research"><div class="container split-section reverse"><div><p class="eyebrow" data-i18n="researchEyebrow">Research</p><h2 data-i18n="researchTitle">A dedicated section for scientific work and studies</h2><p class="lead small" data-i18n="researchText">This section is prepared for summaries, field work, partnerships and projects related to plants and public knowledge.</p></div><div class="list-panel"><h3 data-i18n="researchListTitle">Research entry fields</h3><ul id="researchList"></ul></div></div></section>
 
-    <section class="section-pad" id="knowledge">
-      <div class="container">
-        <div class="section-head"><p class="eyebrow">زانیاری پێویست</p><h2>بنکەی زانیاری، ئەندامێتی و تۆمارەکان</h2></div>
-        <div class="knowledge-grid">
-          <article class="knowledge-card"><h3>ئەندامێتی</h3><p>جیاکردنەوەی ئەندامی ڕۆشنبیری و ئەندامی پیشەیی، مەرجەکان، مافەکان و ئەرکەکانی ئەندام.</p></article>
-          <article class="knowledge-card"><h3>تۆمارە فەرمییەکان</h3><p>تۆماری ئەندامان، ژمێریاری، بڕیارەکان، هاتوو و دەرچوو، پرۆژە و چالاکییەکان.</p></article>
-          <article class="knowledge-card"><h3>بڵاوکراوە و فەرمان</h3><p>شوێنی فەرمی بۆ دانانی فەرمان، ڕاگەیەنراو، پەیوەندی و بەڵگەی پەیوەندیدار.</p></article>
-        </div>
-      </div>
-    </section>
+    <section class="section-pad" id="knowledge"><div class="container"><div class="section-head"><p class="eyebrow" data-i18n="knowledgeEyebrow">Essential Information</p><h2 data-i18n="knowledgeTitle">Knowledge base, membership and records</h2></div><div class="knowledge-grid" id="knowledgeGrid"></div></div></section>
 
-    <section class="section-pad official-docs" id="official-docs">
-      <div class="container">
-        <div class="section-head"><p class="eyebrow">بەڵگە ڕەسمییەکان</p><h2>لۆگۆ و ڕێگەپێدان</h2><p>وێبسایتەکە ئامادەکراوە بۆ پیشاندانی وێنە ڕەسەنەکان بە شێوەی خۆیان. مسیرەکان: <code>assets/official/kha-logo-original.jpeg</code> و <code>assets/official/kha-permission-original.jpeg</code>.</p></div>
-        <div class="document-cards">
-          <figure class="document-card"><img class="official-source-image" src="assets/official/kha-logo-original.jpeg" data-fallback="assets/official/kha-logo.svg" alt="لۆگۆى کۆمەڵەى ڕووەکناسانى کوردستان" /><figcaption>لۆگۆى ڕەسمی کۆمەڵە</figcaption></figure>
-          <figure class="document-card permission-card"><img class="official-source-image" src="assets/official/kha-permission-original.jpeg" data-fallback="assets/official/kha-permission.svg" alt="ڕێگەپێدان و نووسراوی فەرمی" /><figcaption>ڕێگەپێدان و نووسراوی فەرمی</figcaption></figure>
-        </div>
-      </div>
-    </section>
+    <section class="section-pad official-docs" id="official-docs"><div class="container"><div class="section-head"><p class="eyebrow" data-i18n="docsEyebrow">Official Documents</p><h2 data-i18n="docsTitle">Logo and permission document</h2><p data-i18n="docsText">This section uses the official uploaded files in the official assets folder.</p></div><div class="document-cards"><figure class="document-card"><img src="assets/official/kha-logo.svg" alt="KHA logo" /><figcaption data-i18n="logoCaption">Official association logo</figcaption></figure><figure class="document-card permission-card"><img src="assets/official/kha-permission.svg" alt="Official permission document" /><figcaption data-i18n="permissionCaption">Official permission document</figcaption></figure></div></div></section>
 
-    <section class="section-pad" id="document-text">
-      <div class="container">
-        <div class="section-head"><p class="eyebrow">پەیڕەوى ناوخۆیی</p><h2>دەقی تەواوی پەیڕەو</h2><p>دەقەکە لە فایلی `shetaa.docx` وەرگیراوە و وەک بەشێکی فەرمی لە وێبسایتەکە نیشان دەدرێت.</p></div>
-        <article class="bylaw-document" id="bylawDocument" aria-live="polite"><p class="loading">دەقی پەیڕەوى ناوخۆیی بار دەکرێت...</p></article>
-        <noscript><iframe title="پەیڕەوى ناوخۆیی" src="docs/shetaa-full-text.md" style="width:100%;min-height:800px;border:1px solid #ddd4c2;border-radius:24px;background:#fff"></iframe></noscript>
-      </div>
-    </section>
+    <section class="section-pad" id="document-text"><div class="container"><div class="section-head"><p class="eyebrow" data-i18n="bylawsEyebrow">Internal Bylaws</p><h2 data-i18n="bylawsTitle">Full bylaws text</h2><p data-i18n="bylawsText">The text is loaded according to the selected language.</p></div><article class="bylaw-document" id="bylawDocument" aria-live="polite"><p class="loading" data-i18n="loading">Loading bylaws...</p></article></div></section>
   </main>
 
-  <footer class="site-footer"><div class="container footer-grid"><p>کۆمەڵەى ڕووەکناسانى کوردستان · Kurdistan Herbalists Association “KHA”</p><a href="#top">گەڕانەوە بۆ سەرەوە</a></div></footer>
+  <footer class="site-footer"><div class="container footer-grid"><p data-i18n="footerText">Kurdistan Herbalists Association · Official website</p><a href="#top" data-i18n="backTop">Back to top</a></div></footer>
 
   <script>
-    document.querySelectorAll('.official-source-image').forEach(img=>{img.addEventListener('error',()=>{const fallback=img.dataset.fallback;if(fallback&&img.src.indexOf(fallback)===-1){img.src=fallback;}})});
-    const target=document.getElementById('bylawDocument');
-    const escapeHtml=s=>s.replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-    const renderMarkdown=md=>md.split(/\n{2,}/).map(block=>{const t=block.trim();if(!t)return'';if(t.startsWith('### '))return'<h3>'+escapeHtml(t.slice(4))+'</h3>';if(t.startsWith('## '))return'<h2>'+escapeHtml(t.slice(3))+'</h2>';if(t.startsWith('# '))return'<h1>'+escapeHtml(t.slice(2))+'</h1>';const cls=/^[١٢٣٤٥٦٧٨٩]+\.|^١٠\.|^١١\.|^١٢\.|^١٣\.|^١٤\.|^١٥\.|^١٦\.|^١٧\.|^١٨\.|^[أبج][-\.]/.test(t)?' class="numbered"':'';return'<p'+cls+'>'+escapeHtml(t).replace(/\n/g,'<br>')+'</p>';}).join('');
-    fetch('docs/shetaa-full-text.md').then(r=>r.text()).then(md=>{target.innerHTML=renderMarkdown(md)}).catch(()=>{target.innerHTML='<p>نەتوانرا دەقی پەیڕەو بار بکرێت. <a href="docs/shetaa-full-text.md">دەقەکە لێرە بکەرەوە</a>.</p>'});
+    const translations={
+      en:{dir:'ltr',lang:'en',brandTitle:'Kurdistan Herbalists Association',brandSub:'Official website',skip:'Skip to bylaws',navIdentity:'Identity',navProgram:'Bylaws & Program',navActivities:'Activities',navResearch:'Research',navKnowledge:'Knowledge',navDocs:'Documents',navBylaws:'Bylaws',heroEyebrow:'Official Website',heroTitle:'Kurdistan Herbalists Association',heroArabic:'الجمعية العشابية الكوردستانية',heroKurdish:'کۆمەڵەى ڕووەکناسانى کوردستان',heroStamp:'Approved by the first congress of the association, held on 15 March 2014 in Sulaymaniyah.',badges:['Bylaws','Program','Activities','Research','Knowledge'],btnBylaws:'Read full bylaws',btnProgram:'View program',logoCaption:'Official association logo',programEyebrow:'Bylaws and Program',programTitle:'Principles and direction of the association',programText:'This section is based on the official bylaws and forms the foundation for the website sections.',activitiesEyebrow:'Activities',activitiesTitle:'Official place for reports and association news',activitiesText:'Each activity can later include photos, date, location, participants and a short report.',activitiesListTitle:'Activity types',researchEyebrow:'Research',researchTitle:'A dedicated section for scientific work and studies',researchText:'This section is prepared for summaries, field work, partnerships and projects related to plants and public knowledge.',researchListTitle:'Research entry fields',knowledgeEyebrow:'Essential Information',knowledgeTitle:'Knowledge base, membership and records',docsEyebrow:'Official Documents',docsTitle:'Logo and permission document',docsText:'This section uses the official uploaded files in the official assets folder.',permissionCaption:'Official permission document',bylawsEyebrow:'Internal Bylaws',bylawsTitle:'Full bylaws text',bylawsText:'The text is loaded according to the selected language.',loading:'Loading bylaws...',footerText:'Kurdistan Herbalists Association · Official website',backTop:'Back to top',doc:'docs/shetaa-full-text-en.md',intro:[['Identity','An independent professional and cultural association','This website presents the official identity, bylaws, program, activities, research and information of the association in a formal structure.'],['Slogan','Returning to nature','Nature is the greatest pharmacy. Returning to nature is comfort for the soul and body.'],['Head office','Kurdistan Region','The main office is in Erbil, with the ability to open branches and representatives according to official approvals.']],program:[['Health awareness','Spread responsible public awareness and prevention culture.'],['Professional organization','Organize professionals and related fields under a clear association structure.'],['Research and documentation','Encourage scientific documentation and cooperation with institutions.'],['Dictionary and encyclopedia','Build a Kurdish herbal dictionary and plant encyclopedia.'],['Courses and seminars','Open courses, lectures, seminars and public activities.'],['Plant protection','Support protection and development of useful plants.']],activities:['Scientific seminars','Training and awareness courses','Exhibitions and publications','Visits and partnerships with institutions','Nature and plant-protection activities'],research:['Research title and summary','Researcher and partners','Date and location','Files, images and references','Scientific and public-information notes'],knowledge:[['Membership','Cultural and professional membership, conditions, rights and duties.'],['Official records','Member records, accounting, decisions, correspondence, projects and activities.'],['Publications and orders','Official announcements, decisions, letters and related documents.']]},
+      ar:{dir:'rtl',lang:'ar',brandTitle:'جمعية العشابين الكوردستانية',brandSub:'الموقع الرسمي',skip:'انتقل إلى النظام الداخلي',navIdentity:'الهوية',navProgram:'النظام والبرنامج',navActivities:'الأنشطة',navResearch:'البحوث',navKnowledge:'المعلومات',navDocs:'الوثائق',navBylaws:'النظام الداخلي',heroEyebrow:'الموقع الرسمي',heroTitle:'جمعية العشابين الكوردستانية',heroArabic:'Kurdistan Herbalists Association',heroKurdish:'کۆمەڵەى ڕووەکناسانى کوردستان',heroStamp:'أقره المؤتمر الأول للجمعية المنعقد في 15 آذار 2014 في مدينة السليمانية.',badges:['النظام','البرنامج','الأنشطة','البحوث','المعلومات'],btnBylaws:'قراءة النظام الكامل',btnProgram:'عرض البرنامج',logoCaption:'اللوغو الرسمي للجمعية',programEyebrow:'النظام والبرنامج',programTitle:'مبادئ واتجاه عمل الجمعية',programText:'يعتمد هذا القسم على النظام الداخلي الرسمي ويشكل أساس أقسام الموقع.',activitiesEyebrow:'الأنشطة',activitiesTitle:'مكان رسمي للتقارير وأخبار الجمعية',activitiesText:'يمكن لاحقا إضافة الصور والتاريخ والمكان والمشاركين وتقرير مختصر لكل نشاط.',activitiesListTitle:'أنواع الأنشطة',researchEyebrow:'البحوث',researchTitle:'قسم خاص للعمل العلمي والدراسات',researchText:'هذا القسم مهيأ لملخصات البحوث والعمل الميداني والشراكات والمشاريع المرتبطة بالنباتات والمعرفة العامة.',researchListTitle:'حقول البحث',knowledgeEyebrow:'معلومات أساسية',knowledgeTitle:'قاعدة المعلومات والعضوية والسجلات',docsEyebrow:'الوثائق الرسمية',docsTitle:'اللوغو ووثيقة الإذن',docsText:'يستخدم هذا القسم الملفات الرسمية المرفوعة في مجلد الأصول الرسمية.',permissionCaption:'وثيقة الإذن الرسمية',bylawsEyebrow:'النظام الداخلي',bylawsTitle:'النص الكامل للنظام الداخلي',bylawsText:'يتم تحميل النص حسب اللغة المختارة.',loading:'جار تحميل النظام الداخلي...',footerText:'جمعية العشابين الكوردستانية · الموقع الرسمي',backTop:'العودة إلى الأعلى',doc:'docs/shetaa-full-text-ar.md',intro:[['الهوية','مؤسسة مهنية وثقافية مستقلة','يعرض هذا الموقع الهوية الرسمية والنظام الداخلي والبرنامج والأنشطة والبحوث والمعلومات الخاصة بالجمعية.'],['الشعار','العودة إلى الطبيعة','الطبيعة أكبر صيدلية. العودة إلى الطبيعة راحة للنفس والجسد.'],['المقر','إقليم كوردستان','المقر العام في أربيل، مع إمكانية فتح فروع وممثليات وفق الموافقات الرسمية.']],program:[['الوعي العام','نشر الوعي المسؤول وثقافة الوقاية.'],['التنظيم المهني','تنظيم المهنيين والمجالات ذات العلاقة ضمن هيكل واضح.'],['البحث والتوثيق','تشجيع التوثيق العلمي والتعاون مع المؤسسات.'],['القاموس والموسوعة','إعداد قاموس كوردي وموسوعة للنباتات.'],['الدورات والندوات','فتح دورات ومحاضرات وندوات وأنشطة عامة.'],['حماية النباتات','دعم حماية النباتات المفيدة وتطويرها.']],activities:['ندوات علمية','دورات تدريبية وتوعوية','معارض ومنشورات','زيارات وشراكات مع المؤسسات','أنشطة حماية الطبيعة والنباتات'],research:['عنوان البحث وملخصه','الباحث والشركاء','التاريخ والمكان','الملفات والصور والمراجع','ملاحظات علمية ومعلوماتية'],knowledge:[['العضوية','عضوية ثقافية ومهنية وشروط وحقوق وواجبات.'],['السجلات الرسمية','سجلات الأعضاء والمحاسبة والقرارات والمراسلات والمشاريع والأنشطة.'],['المنشورات والأوامر','إعلانات وقرارات وكتب ووثائق رسمية.']]},
+      ckb:{dir:'rtl',lang:'ckb',brandTitle:'کۆمەڵەى ڕووەکناسانى کوردستان',brandSub:'وێبسایتی فەرمی',skip:'بڕۆ بۆ پەیڕەو',navIdentity:'ناسنامە',navProgram:'پەیڕەو و پرۆگرام',navActivities:'چالاکی',navResearch:'توێژینەوە',navKnowledge:'زانیاری',navDocs:'بەڵگەکان',navBylaws:'پەیڕەو',heroEyebrow:'وێبسایتی فەرمی',heroTitle:'کۆمەڵەى ڕووەکناسانى کوردستان',heroArabic:'جميعة العشابين الكوردستانية',heroKurdish:'Kurdistan Herbalists Association “KHA”',heroStamp:'پەسەندکراوى کۆنگرەى یەکەمى کۆمەڵەى ڕووەکناسانى کوردستان کە لە بەروارى (١٥/٣/٢٠١٤)ز ئەنجامدرا لە شارى سلێمانى.',badges:['پەیڕەو','پرۆگرام','چالاکی','توێژینەوە','زانیاری'],btnBylaws:'بینینی پەیڕەوى تەواو',btnProgram:'بینینی پرۆگرام',logoCaption:'لۆگۆى ڕەسمی کۆمەڵە',programEyebrow:'پەیڕەو و پرۆگرام',programTitle:'بنەما و ئاراستەی کاری کۆمەڵە',programText:'ئەم بەشە بە پشتبەستن بە پەیڕەوی ناوخۆیی دروستکراوە.',activitiesEyebrow:'چالاکی',activitiesTitle:'شوێنی فەرمی بۆ ڕاپۆرت و هەواڵی کۆمەڵە',activitiesText:'دواتر دەتوانرێت هەر چالاکییەک بە وێنە، بەروار، شوێن و ڕاپۆرت دابنرێت.',activitiesListTitle:'جۆری چالاکییەکان',researchEyebrow:'توێژینەوە',researchTitle:'بەشی تایبەت بۆ کار و توێژینەوەی زانستی',researchText:'ئەم بەشە بۆ پوختەی توێژینەوە و کارە مەیدانییەکان ئامادەکراوە.',researchListTitle:'پێکهاتەی توێژینەوە',knowledgeEyebrow:'زانیاری پێویست',knowledgeTitle:'بنکەی زانیاری، ئەندامێتی و تۆمارەکان',docsEyebrow:'بەڵگە ڕەسمییەکان',docsTitle:'لۆگۆ و ڕێگەپێدان',docsText:'ئەم بەشە فایلە ڕەسمییە بارکراوەکان بەکار دەهێنێت.',permissionCaption:'ڕێگەپێدان و نووسراوی فەرمی',bylawsEyebrow:'پەیڕەوى ناوخۆیی',bylawsTitle:'دەقی تەواوی پەیڕەو',bylawsText:'دەقەکە بە پێی زمانە هەڵبژێردراوەکە بار دەکرێت.',loading:'دەقی پەیڕەو بار دەکرێت...',footerText:'کۆمەڵەى ڕووەکناسانى کوردستان · وێبسایتی فەرمی',backTop:'گەڕانەوە بۆ سەرەوە',doc:'docs/shetaa-full-text.md',intro:[['ناسنامە','دامەزراوەیەکی پیشەیی و ڕۆشنبیریی سەربەخۆ','ئەم وێبسایتە ناسنامەی ڕەسمی، پەیڕەو، پرۆگرام، چالاکی، توێژینەوە و زانیارییەکان دەخاتە ڕوو.'],['دروشم','گەڕانەوە بۆ سروشت','سروشت گەورەترین دەرمانخانەیە. گەڕانەوە بۆ سروشت ئاسوودەیی دەروون و جەستەیە.'],['مەڵبەند','هەرێمی کوردستان','مەڵبەندی گشتی لە هەولێرە و دەتوانێت لق و نوێنەرایەتی هەبێت.']],program:[['هۆشیاری گشتی','بڵاوکردنەوەی هۆشیاری و ڕۆشنبیریی بەرپرسانە.'],['ڕێکخستنی پیشەوەران','ڕێکخستنی پیشەوەران و بوارە پەیوەندیدارەکان.'],['توێژینەوە و بەڵگە','هاندانی توێژینەوە و بەڵگەدارکردن.'],['فەرهەنگ و ئینسایکڵۆپیدیا','دروستکردنی فەرهەنگ و ئینسایکڵۆپیدیا.'],['خول و سیمینار','کردنەوەی خول و کۆڕ و سیمینار.'],['پاراستنی ڕووەکەکان','پاراستن و پەرەپێدانی ڕووەکە بەسوودەکان.']],activities:['کۆڕ و سیمیناری زانستی','خولی ڕاهێنان و هۆشیاری','پێشانگا و بڵاوکراوە','سەردان و هاوبەشی','چالاکیی پاراستنی سروشت'],research:['ناوی توێژینەوە و پوختە','توێژەر و هاوبەشەکان','بەروار و شوێن','فایل، وێنە و سەرچاوە','تێبینی زانستی'],knowledge:[['ئەندامێتی','ئەندامی ڕۆشنبیری و پیشەیی، مەرج، ماف و ئەرک.'],['تۆمارە فەرمییەکان','تۆماری ئەندامان، ژمێریاری، بڕیار و چالاکییەکان.'],['بڵاوکراوە و فەرمان','ڕاگەیەنراو، بڕیار، نووسراو و بەڵگەکان.']]}
+    };
+    const escapeHtml=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+    const renderMarkdown=md=>md.split(/\n{2,}/).map(block=>{const t=block.trim();if(!t)return'';if(t.startsWith('### '))return'<h3>'+escapeHtml(t.slice(4))+'</h3>';if(t.startsWith('## '))return'<h2>'+escapeHtml(t.slice(3))+'</h2>';if(t.startsWith('# '))return'<h1>'+escapeHtml(t.slice(2))+'</h1>';return'<p>'+escapeHtml(t).replace(/\n/g,'<br>')+'</p>';}).join('');
+    function cards(items, cls){return items.map((x,i)=>`<article class="${cls}">${cls==='program-card'?`<span class="card-no">${String(i+1).padStart(2,'0')}</span>`:''}<h3>${escapeHtml(x[0])}</h3><p>${escapeHtml(x[1])}</p>${x[2]?`<p>${escapeHtml(x[2])}</p>`:''}</article>`).join('')}
+    function applyLang(lang){const t=translations[lang]||translations.en;document.documentElement.lang=t.lang;document.documentElement.dir=t.dir;document.title=t.heroTitle+' | KHA';document.querySelectorAll('[data-i18n]').forEach(el=>{const key=el.dataset.i18n;if(t[key])el.textContent=t[key]});document.querySelectorAll('[data-lang]').forEach(b=>b.classList.toggle('active',b.dataset.lang===lang));document.getElementById('badges').innerHTML=t.badges.map(x=>`<span>${escapeHtml(x)}</span>`).join('');document.getElementById('introGrid').innerHTML=cards(t.intro,'intro-card');document.getElementById('programGrid').innerHTML=cards(t.program,'program-card');document.getElementById('activitiesList').innerHTML=t.activities.map(x=>`<li>${escapeHtml(x)}</li>`).join('');document.getElementById('researchList').innerHTML=t.research.map(x=>`<li>${escapeHtml(x)}</li>`).join('');document.getElementById('knowledgeGrid').innerHTML=cards(t.knowledge,'knowledge-card');const target=document.getElementById('bylawDocument');target.innerHTML='<p class="loading">'+escapeHtml(t.loading)+'</p>';fetch(t.doc).then(r=>r.text()).then(md=>{target.innerHTML=renderMarkdown(md)}).catch(()=>{target.innerHTML='<p>'+escapeHtml(t.loading)+'</p>'});}
+    document.querySelectorAll('[data-lang]').forEach(btn=>btn.addEventListener('click',()=>applyLang(btn.dataset.lang)));
+    applyLang('en');
   </script>
 </body>
 </html>
