@@ -3,46 +3,43 @@
 **Kurdistan Herbalists Association (KHA)**  
 **جمعية العشابين الكوردستانية**
 
-Official multilingual website and digital foundation for Kurdistan Herbalists Association. The public-facing Kurdish name is:
+Official static website for Kurdistan Herbalists Association, built from the uploaded official bylaws file `shetaa.docx`, the official logo reference, and the official permission / registration reference.
+
+The public-facing Kurdish name is:
 
 **کۆمەڵەى ڕووەکناسانى کوردستان**
 
-This repository keeps the website and future digital systems aligned with the association’s official identity, bylaws, logo, slogans, membership structure, and long-term scientific/cultural goals.
+## Implemented website content
+
+- The homepage now uses the official KHA identity only.
+- The full bylaws text from `shetaa.docx` is stored in `docs/shetaa-full-text.md` and rendered inside `index.html`.
+- The logo is displayed from `assets/official/kha-logo.svg`.
+- The permission / official document section is displayed from `assets/official/kha-permission.svg`.
+- Previous sample flora, geography, event, and membership placeholder content was removed from the homepage.
 
 ## Official foundation
 
-The project must use these uploaded official/reference files as the source of truth:
+The project uses these uploaded official/reference files as the source of truth:
 
 - Internal bylaws: `پەیڕەوى ناوخۆی کۆمەڵەى ڕووەکناسانى کوردستان`
 - Official logo image: Kurdish, Arabic and English identity with KHA visual mark
 - Government/official document scan related to registration and formal recognition
 
-See: [`docs/project-foundation.md`](docs/project-foundation.md)
+See:
 
-## Core direction
-
-This project is not only a plant database. It should support:
-
-- Official multilingual association website
-- Kurdish, Arabic and English interface translations
-- Association identity: logo, history, slogan and official documents
-- Public health-awareness content about natural and complementary approaches
-- Flora and medicinal-plant database with search and category filters
-- Kurdish herbal/medicinal-plant encyclopedia and glossary
-- Membership form and future membership records
-- Courses, seminars, research and association activities
-- Branches, committees, decisions and official registers
-- Responsible health disclaimers and scientific-source handling
+- [`docs/shetaa-full-text.md`](docs/shetaa-full-text.md)
+- [`docs/project-foundation.md`](docs/project-foundation.md)
 
 ## Main files
 
 ```text
 index.html
-styles.css
-app.js
-manifest.json
-assets/ecology.svg
+official.css
+assets/official/kha-logo.svg
+assets/official/kha-permission.svg
+docs/shetaa-full-text.md
 docs/project-foundation.md
+manifest.json
 README.md
 ```
 
@@ -57,12 +54,6 @@ For GitHub Pages:
 3. Choose the `main` branch and root folder.
 4. Save and wait for the Pages URL.
 
-## Before launch
+## Notes
 
-- Add the official logo assets to `assets/official/`.
-- Replace sample email and phone number with official contact details.
-- Replace sample plant records in `app.js` with verified records.
-- Update event dates and association statistics.
-- Align all public text with `docs/project-foundation.md`.
-- Add medical/health disclaimers for herbal and complementary-medicine content.
-- Test the language switcher on desktop and mobile.
+The visible website is now based on the official KHA bylaws and identity. The current logo and permission displays are SVG website assets prepared from the supplied references. If exact original scans are required as downloadable binary image files, add them later under `assets/official/`.
